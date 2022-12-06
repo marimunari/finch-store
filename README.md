@@ -61,7 +61,7 @@ Antes de começar, será necessário instalar em sua máquina as seguintes ferra
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/marimunari/finch-store
+$ git clone https://github.com/marimunari/finch-store.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd finch-store
