@@ -1,5 +1,20 @@
 ### Finch Store
 
+<h1 align="center">
+    <img src="https://github.com/marimunari/finch-store/blob/master/src/assets/imgs/code.png" />
+</h1>
+
+<p align="center">
+ <a href="#bookmark_tabs-sobre-o-projeto">Sobre o projeto</a> •
+ <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> • 
+ <a href="#art-sobre-o-design">Sobre o Design</a> • 
+ <a href="#books-features">Feautures</a> • 
+ <a href="#white_check_mark-pré-requisitos">Pré-requisitos</a> • 
+ <a href="#gear-rodando-a-aplicação">Rodando a aplicação</a> • 
+ <a href="#memo-license">Licença</a> • 
+ <a href="#pencil12-autor">Autor</a> 
+</p>
+
 ## :bookmark_tabs: Sobre o projeto
 
 Desafio realizado para a vaga de Desenvolvedor Front-End na [Finch Soluções](https://finchsolucoes.com.br/)
@@ -25,7 +40,7 @@ Desenvolvido para as seguintes telas:
 - Desktop (Comum): de 1200px até 1799px
 - Desktop (Maiores): a partir de 1800px
 
-## Features
+## :books: Features
 
 - [x] Listagem de todos produtos
 - [x] Listagem de produtos exclusivos
@@ -42,11 +57,11 @@ Antes de começar, será necessário instalar em sua máquina as seguintes ferra
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/)
 
-## Rodando a aplicação
+## :gear: Rodando a aplicação
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/marimunar/finch-store
+$ git clone https://github.com/marimunari/finch-store
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd finch-store
@@ -63,11 +78,11 @@ $ npm start
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/marimunari/finch-store/blob/master/LICENSE) for more information.
+Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/marimunari/finch-store/blob/master/LICENSE) para obter mais informações.
 
-## Autor
+## :pencil2: Autor
 
 <b>Desenvolvindo por <a href="https://github.com/marimunari">Mariana Munari</a></b>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Mariana_Munari-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/mariana-munari)
+![Linkedin Badge](https://img.shields.io/badge/-Mariana_Munari-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/mariana-munari)
 [![Gmail Badge](https://img.shields.io/badge/marianamunari4@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marianamunari4@gmail.com)](mailto:marianamunari4@gmail.com)
