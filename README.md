@@ -8,11 +8,11 @@
  <a href="#bookmark_tabs-sobre-o-projeto">Sobre o projeto</a> •
  <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> • 
  <a href="#art-sobre-o-design">Sobre o Design</a> • 
- <a href="#books-features">Feautures</a> • 
+ <a href="#books-features">Features</a> • 
  <a href="#white_check_mark-pré-requisitos">Pré-requisitos</a> • 
  <a href="#gear-rodando-a-aplicação">Rodando a aplicação</a> • 
  <a href="#memo-license">Licença</a> • 
- <a href="#pencil12-autor">Autor</a> 
+ <a href="#pencil2-autor">Autor</a> 
 </p>
 
 ## :bookmark_tabs: Sobre o projeto
@@ -76,7 +76,7 @@ $ json-server --watch db.json --port 8080
 $ npm start
 ```
 
-## :memo: License
+## :memo: Licença
 
 Este projeto está sob a licença do MIT. Consulte a [LICENÇA](https://github.com/marimunari/finch-store/blob/master/LICENSE) para obter mais informações.
 
