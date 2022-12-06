@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+### Finch Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :bookmark_tabs: Sobre o projeto
 
-## Available Scripts
+Desafio realizado para a vaga de Desenvolvedor Front-End na [Finch Soluções](https://finchsolucoes.com.br/)
 
-In the project directory, you can run:
+## :hammer_and_wrench: Tecnologias
 
-### `npm start`
+- [react](https://reactjs.org/)
+- [react-router-dom](https://github.com/remix-run/react-router)
+- [react-loader-spinner](https://mhnpd.github.io/react-loader-spinner/)
+- [redux](https://redux.js.org/)
+- [redux-saga](https://redux-saga.js.org/)
+- [axios](https://github.com/axios/axios)
+- [json-server](https://github.com/typicode/json-server)
+- [node-Sass](https://github.com/sass/node-sass)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :art: Sobre o Design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Desenvolvido para as seguintes telas:
 
-### `npm test`
+- Celulares: até 599px
+- Tablet (Modo Retrato): de 600px até 899px
+- Tablet (Modo Paisagem): de 900px até 1199px
+- Desktop (Comum): de 1200px até 1799px
+- Desktop (Maiores): a partir de 1800px
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- [x] Listagem de todos produtos
+- [x] Listagem de produtos exclusivos
+- [x] Listagem de produtos em promoção
+- [ ] Listagem de produtos favoritos
+- [x] Detalhes do produto
+- [x] Pesquisa por um determinado produto
+- [ ] Adição e remoção de produtos aos favoritos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :white_check_mark: Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Antes de começar, será necessário instalar em sua máquina as seguintes ferramentas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/)
 
-### `npm run eject`
+## Rodando a aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone este repositório
+$ git clone https://github.com/marimunar/finch-store
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd finch-store
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instale as dependências
+$ npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Execute o back-end
+$ json-server --watch db.json --port 8080
 
-## Learn More
+# Execute o front-end
+$ npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :memo: License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is under the MIT license. See the [LICENSE](https://github.com/marimunari/finch-store/blob/master/LICENSE) for more information.
 
-### Code Splitting
+## Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<b>Desenvolvindo por <a href="https://github.com/marimunari">Mariana Munari</a></b>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Linkedin Badge](https://img.shields.io/badge/-Mariana_Munari-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/mariana-munari)
+[![Gmail Badge](https://img.shields.io/badge/marianamunari4@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marianamunari4@gmail.com)](mailto:marianamunari4@gmail.com)
