@@ -1,0 +1,152 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.card {
+  background-color: #FFF;
+  width: 400px;
+  height: 375px;
+  box-shadow: 0px 10px 20px #16319B29;
+  border-radius: 3px;
+  margin: 15px 5px 50px 30px;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__content {
+    img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+
+  &__header {
+    height: 187px;
+    color: #fff;
+    text-align: center;
+    font: normal normal normal 12px/14px "Manrope";
+
+    span {
+      display: inline-block;
+      width: 107px;
+      height: 26px;
+      padding: 3px;
+      position: relative;
+      left: 145px;
+      bottom: 29px;
+    }
+
+    > .--promotion {
+      background: transparent linear-gradient(125deg, $primary-pink 0%, $secondary-purple 100%);
+      opacity: 1;
+    }
+
+    > .--exclusive {
+      background: transparent linear-gradient(125deg, $secondary-blue 0%, $tertiary-blue 100%);
+      opacity: 1
+    }
+
+    img {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+  }
+
+  &__details {
+    h5 {
+      font: normal normal 600 20px/24px "Manrope";
+      letter-spacing: 0px;
+      color: $tertiary-grey;
+      opacity: 1;
+      margin: 0;
+      padding: 10px 25px;
+    }
+
+    p {
+      width: 390px;
+      font: normal normal normal 14px/17px "Manrope";
+      letter-spacing: 0px;
+      line-height: 1.3;
+      color: $quaternary-grey;
+      opacity: 1;
+      margin: 0;
+      padding: 5px 0 20px 25px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 5px 25px;
+  }
+
+  &__price {
+    font: normal normal 600 20px/24px "Manrope";
+    letter-spacing: 0px;
+    color: $primary-purple;
+    opacity: 1;
+    padding-top: 30px;
+  }
+
+  &__favorite {
+    font: normal normal normal 12px/14px "Manrope";
+    color: $quaternary-grey;
+    opacity: 1;
+  }
+
+  @include responsive(tablet-portrait-up) {
+    width: 330px;
+    height: 355px;
+    margin-left: 60px;
+
+    &__header {
+      span {
+        left: 111px;
+      }
+    }
+
+    &__details {
+      p {
+        width: 330px;
+      }
+    }
+  }
+
+  @include responsive(tablet-landscape-up) {
+    margin-left: 30px;
+
+    &__content {
+      img {
+        height: 187px;
+      }
+    }
+  }
+
+  @include responsive(desktop-up) {
+    width: 350px;
+    height: 345px;
+
+    &__header {
+      span {
+        left: 121px;
+      }
+    }
+
+    &__details {
+      p {
+        width: 350px;
+      }
+    }
+
+    &__price 
+    {
+      padding-top: 20px;
+    }
+  }
+  
+  @include responsive(big-desktop-up) {
+    margin-left: 50px;
+  }
+}

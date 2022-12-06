@@ -1,0 +1,100 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    border-bottom: 1px solid $primary-grey;
+    margin: 50px 30px 0 170px;
+    padding-bottom: 40px;
+    opacity: 1;
+  
+    &__description {
+      width: 400px;
+      opacity: 1;
+      
+      h1 {
+        font: normal normal 600 20px/24px "Manrope";
+        color: $tertiary-grey;
+        padding-bottom: 10px;
+        padding: 15px 0;
+  
+        span {
+          font-weight: lighter;
+        }
+      }
+      
+      p {
+        font: normal normal normal 14px/17px "Manrope";
+        color: $quaternary-grey;
+      }   
+    }
+  
+    &__search {
+      padding-top: 30px;
+      margin: 15px 40px 0 0;
+      width: 400px;
+    }
+
+    @include responsive(tablet-portrait-up) {
+      width: 660px;
+      margin-left: 200px;
+
+      &__description {
+        width: 660px;
+  
+        h1, p {
+          width: 660px;
+        }
+      }
+    }
+    @include responsive(tablet-landscape-up) {
+      width: 690px;
+      margin-left: 170px;
+
+      &__description {
+        width: 700px;
+
+        h1, p {
+          width: 700px;
+        }
+      }
+      
+      &__search {
+        width: 700px;
+      }
+    }
+
+    @include responsive(desktop-up) {
+      flex-direction: row;
+      align-items: center;
+      width: 1120px;
+      padding-bottom: 50px;
+
+      &__description {
+        width: 600px;
+        margin-right: 50px;
+      }
+
+      &__search {
+        width: 450px;
+        margin: 30px 40px 0 25px;
+        padding-top: 0;
+      }
+    }
+
+    @include responsive(big-desktop-up) {
+      width: 1570px;
+      margin-left: 190px;
+
+      &__description {
+        margin-right: 105px;
+      }
+
+      &__search {
+        margin-left: 400px;
+      }
+    }
+}

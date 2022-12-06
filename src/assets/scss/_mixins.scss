@@ -1,0 +1,44 @@
+// Media Queries
+@mixin responsive($size) {
+    @if $size == phone-only {
+        @media only screen and (max-width: 599px) { 
+            @content; 
+        }
+    } @else if $size == tablet-portrait-up {
+        @media only screen and (min-width: 600px) {
+            @content;
+        }
+    } @else if $size == tablet-landscape-up {
+        @media only screen and (min-width: 900px) { 
+            @content; 
+        }
+    } @else if $size == desktop-up {
+        @media only screen and (min-width: 1200px) { 
+            @content; 
+        }
+    } @else if $size == big-desktop-up {
+        @media only screen and (min-width: 1800px) { 
+            @content; 
+        }
+    }
+}
+
+
+// Typography
+@mixin font($size) {
+    font-family: "Manrope", Georgia, serif;
+    @if $size == 14 {
+      font-size: 14px;
+      line-height: 20px;
+    } @else if $size == 18 {
+      font-size: 18px;
+      line-height: 25px;
+    } @else if $size == 24 {
+      font-size: 24px;
+      line-height: 30px;
+    } @else if $size == 36 {
+      font-size: 36px;
+    } @else if $size == 48 {
+      font-size: 48px;
+    }
+}
